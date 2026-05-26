@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="uz" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IDSC provides B2B IT services, information systems development, website and portal development, mobile applications, technical documentation, technical support, and IT consulting for government and private organizations." />
+  <meta name="keywords" content="IDSC, Information and Decision Support Center, IT services, B2B IT, information systems, web development, mobile apps, IT consulting, Uzbekistan" />
+  <link rel="canonical" href="https://idsc.uz/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="IDSC — Information and Decision Support Center | Professional IT Services" />
+  <meta property="og:description" content="IDSC provides professional IT solutions for government and private organizations." />
+  <meta property="og:url" content="https://idsc.uz/" />
+  <meta property="og:image" content="assets/images/idsc-logo.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IDSC — Information and Decision Support Center" />
+  <meta name="twitter:description" content="Professional IT solutions for government and private organizations." />
+  <meta name="twitter:image" content="assets/images/idsc-logo.jpg" />
+
+  <title>IDSC — Information and Decision Support Center | Professional IT Services</title>
+
+  <link rel="icon" type="image/jpeg" href="assets/images/idsc-logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "IDSC — Information and Decision Support Center",
+    "url": "https://idsc.uz/",
+    "logo": "https://idsc.uz/assets/images/idsc-logo.jpg",
+    "description": "Professional IT solutions for government and private organizations.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "UZ"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" role="status" aria-label="Loading IDSC website">
+    <div class="preloader-bg-lines" aria-hidden="true">
+      <div class="bg-line bg-line-1"></div>
+      <div class="bg-line bg-line-2"></div>
+      <div class="bg-circuit" aria-hidden="true">
+        <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 150 L80 150 L80 80 L160 80" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+          <path d="M380 150 L320 150 L320 220 L240 220" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+          <circle cx="80" cy="150" r="3" fill="#C6A15B" fill-opacity="0.5"/>
+          <circle cx="320" cy="150" r="3" fill="#C6A15B" fill-opacity="0.5"/>
+          <circle cx="160" cy="80" r="2" fill="#C6A15B" fill-opacity="0.3"/>
+          <circle cx="240" cy="220" r="2" fill="#C6A15B" fill-opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <div class="preloader-content">
+      <div class="preloader-logo-wrap">
+        <img src="assets/images/idsc-logo.jpg" alt="IDSC Logo" class="preloader-logo" width="160" height="160" />
+        <div class="preloader-scan" aria-hidden="true"></div>
+      </div>
+      <div class="preloader-brand-name">INFORMATION AND DECISION SUPPORT CENTER</div>
+      <div class="preloader-status" id="preloaderStatus" aria-live="polite">Initializing secure digital environment...</div>
+      <div class="preloader-progress-wrap" aria-hidden="true">
+        <div class="preloader-progress-bar" id="preloaderBar"></div>
+      </div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+
+  <!-- HEADER -->
+  <header id="mainHeader" role="banner">
+    <div class="header-inner container">
+      <a href="#hero" class="header-logo" aria-label="IDSC — Home">
+        <div class="logo-capsule">
+          <img src="assets/images/idsc-logo.jpg" alt="IDSC Logo" width="44" height="44" />
+        </div>
+        <div class="header-brand-text">
+          <span class="header-brand-abbr">IDSC</span>
+          <span class="header-brand-full" data-i18n="brandFull">Information and Decision Support Center</span>
+        </div>
+      </a>
+
+      <nav class="header-nav" role="navigation" aria-label="Main navigation">
+        <a href="#hero" class="nav-link active" data-i18n="navHome">Bosh sahifa</a>
+        <a href="#about" class="nav-link" data-i18n="navAbout">Biz haqimizda</a>
+        <a href="#services" class="nav-link" data-i18n="navServices">Xizmatlar</a>
+        <a href="#projects" class="nav-link" data-i18n="navProjects">Loyihalar</a>
+        <a href="#partners" class="nav-link" data-i18n="navPartners">Hamkorlar</a>
+        <a href="#media" class="nav-link" data-i18n="navMedia">Media</a>
+        <a href="#contact" class="nav-link" data-i18n="navContact">Bog'lanish</a>
+      </nav>
+
+      <div class="header-right">
+        <div class="lang-switcher" role="navigation" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="uz" aria-pressed="true">UZ</button>
+          <button class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="#contact" class="btn-cta" data-i18n="ctaConsultation">Konsultatsiya</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation" hidden>
+    <div class="mobile-menu-inner">
+      <div class="mobile-menu-header">
+        <div class="logo-capsule">
+          <img src="assets/images/idsc-logo.jpg" alt="IDSC" width="40" height="40" />
+        </div>
+        <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 2L18 18M18 2L2 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" role="navigation">
+        <a href="#hero" class="mobile-nav-link" data-i18n="navHome">Bosh sahifa</a>
+        <a href="#about" class="mobile-nav-link" data-i18n="navAbout">Biz haqimizda</a>
+        <a href="#services" class="mobile-nav-link" data-i18n="navServices">Xizmatlar</a>
+        <a href="#projects" class="mobile-nav-link" data-i18n="navProjects">Loyihalar</a>
+        <a href="#partners" class="mobile-nav-link" data-i18n="navPartners">Hamkorlar</a>
+        <a href="#media" class="mobile-nav-link" data-i18n="navMedia">Media</a>
+        <a href="#contact" class="mobile-nav-link" data-i18n="navContact">Bog'lanish</a>
+      </nav>
+      <div class="mobile-lang">
+        <button class="lang-btn active" data-lang="uz">UZ</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="#contact" class="btn-cta mobile-cta" data-i18n="ctaConsultation">Konsultatsiya</a>
+    </div>
+  </div>
+  <!-- END MOBILE MENU -->
+
+  <main id="mainContent">
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section" aria-labelledby="heroHeading">
+      <div class="hero-bg-pattern" aria-hidden="true">
+        <svg class="hero-circuit-svg" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 300 L100 300 L100 200 L200 200 L200 150" stroke="#C6A15B" stroke-width="0.6" stroke-opacity="0.2"/>
+          <path d="M800 300 L700 300 L700 400 L600 400 L600 450" stroke="#C6A15B" stroke-width="0.6" stroke-opacity="0.2"/>
+          <path d="M150 0 L150 100 L250 100 L250 200" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.15"/>
+          <circle cx="100" cy="300" r="4" fill="#C6A15B" fill-opacity="0.25"/>
+          <circle cx="700" cy="300" r="4" fill="#C6A15B" fill-opacity="0.25"/>
+          <circle cx="200" cy="200" r="3" fill="#C6A15B" fill-opacity="0.2"/>
+          <circle cx="600" cy="400" r="3" fill="#C6A15B" fill-opacity="0.2"/>
+          <rect x="240" y="180" width="12" height="12" rx="1" fill="none" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.2"/>
+          <rect x="540" y="380" width="10" height="10" rx="1" fill="none" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.2"/>
+        </svg>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-content" data-reveal>
+          <p class="section-label" data-i18n="brandFull">Information and Decision Support Center</p>
+          <h1 id="heroHeading" class="hero-heading" data-i18n="heroHeading">Raqamli yechimlar orqali ishonchli boshqaruv va samarali qarorlar</h1>
+          <p class="hero-paragraph" data-i18n="heroParagraph">IDSC davlat va nodavlat tashkilotlar uchun zamonaviy axborot tizimlari, B2B IT xizmatlari, raqamli platformalar va texnik yechimlarni ishlab chiqadi.</p>
+          <div class="hero-ctas">
+            <a href="#services" class="btn-primary" data-i18n="heroCta1">Xizmatlarimiz</a>
+            <a href="#contact" class="btn-secondary" data-i18n="heroCta2">Bog'lanish</a>
+          </div>
+          <div class="hero-trust-labels">
+            <span class="trust-label" data-i18n="trust1">Davlat va korporativ sektor</span>
+            <span class="trust-label" data-i18n="trust2">Xavfsiz yechimlar</span>
+            <span class="trust-label" data-i18n="trust3">Professional IT hamkor</span>
+          </div>
+        </div>
+        <div class="hero-visual" data-reveal>
+          <div class="hero-panel">
+            <div class="hero-panel-logo">
+              <img src="assets/images/idsc-logo.jpg" alt="IDSC" width="120" height="120" />
+            </div>
+            <div class="hero-panel-lines" aria-hidden="true">
+              <svg viewBox="0 0 320 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40 190 L90 190 L90 120 L170 120" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.6"/>
+                <path d="M280 190 L230 190 L230 260 L150 260" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.6"/>
+                <path d="M160 40 L160 100" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.4"/>
+                <path d="M160 280 L160 340" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.4"/>
+                <circle cx="90" cy="190" r="5" fill="none" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.7"/>
+                <circle cx="230" cy="190" r="5" fill="none" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.7"/>
+                <circle cx="170" cy="120" r="3" fill="#C6A15B" fill-opacity="0.5"/>
+                <circle cx="150" cy="260" r="3" fill="#C6A15B" fill-opacity="0.5"/>
+                <rect x="140" y="170" width="40" height="40" rx="4" fill="none" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+                <!-- mini chart bars -->
+                <rect x="200" y="290" width="8" height="25" rx="1" fill="#C6A15B" fill-opacity="0.4"/>
+                <rect x="212" y="278" width="8" height="37" rx="1" fill="#C6A15B" fill-opacity="0.5"/>
+                <rect x="224" y="265" width="8" height="50" rx="1" fill="#C6A15B" fill-opacity="0.6"/>
+                <rect x="236" y="255" width="8" height="60" rx="1" fill="#C6A15B" fill-opacity="0.7"/>
+                <path d="M198 292 L205 280 L218 270 L232 258 L244 248" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.8" fill="none"/>
+                <!-- nodes -->
+                <circle cx="80" cy="60" r="6" fill="none" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+                <circle cx="240" cy="60" r="6" fill="none" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+                <circle cx="80" cy="320" r="6" fill="none" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.4"/>
+                <line x1="80" y1="60" x2="160" y2="40" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.25"/>
+                <line x1="240" y1="60" x2="160" y2="40" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.25"/>
+              </svg>
+            </div>
+            <div class="hero-panel-label" data-i18n="heroPanelLabel">Digital Infrastructure</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip" aria-label="Trust indicators">
+      <div class="container trust-strip-inner">
+        <div class="trust-item" data-reveal>
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 5.5V10.5C3 14.09 6.13 17.44 10 18.5C13.87 17.44 17 14.09 17 10.5V5.5L10 2Z" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+          </div>
+          <span data-i18n="trustStrip1">Davlat va nodavlat tashkilotlar uchun yechimlar</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" data-reveal>
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><rect x="11" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><rect x="2" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><rect x="11" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/></svg>
+          </div>
+          <span data-i18n="trustStrip2">B2B yo'nalishidagi IT xizmatlar</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" data-reveal>
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 6H16M4 10H16M4 14H10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </div>
+          <span data-i18n="trustStrip3">Texnik hujjatlashtirish va qo'llab-quvvatlash</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" data-reveal>
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2C10 2 4 5 4 10.5V15L10 18L16 15V10.5C16 5 10 2 10 2Z" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <span data-i18n="trustStrip4">Mas'uliyatli uzoq muddatli hamkorlik</span>
+        </div>
+      </div>
+    </section>
+    <!-- END TRUST STRIP -->
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section" aria-labelledby="aboutHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="aboutLabel">Biz haqimizda</p>
+          <h2 id="aboutHeading" class="section-title" data-i18n="aboutTitle">Information and Decision Support Center</h2>
+          <p class="section-intro" data-i18n="aboutText">IDSC — davlat va nodavlat tashkilotlarning raqamli rivojlanishi uchun axborot tizimlari, veb-platformalar, mobil ilovalar va professional IT xizmatlarini ishlab chiqishga yo'naltirilgan kompaniya. Biz mijoz ehtiyojlarini chuqur tahlil qilib, barqaror, xavfsiz va foydalanishga qulay texnologik yechimlar yaratamiz.</p>
+        </div>
+        <div class="about-cards">
+          <article class="about-card" data-reveal>
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 4L4 8.5V14.5C4 19.1 8.2 23.6 14 25C19.8 23.6 24 19.1 24 14.5V8.5L14 4Z" stroke="#C6A15B" stroke-width="1.5" fill="none"/></svg>
+            </div>
+            <h3 class="about-card-title" data-i18n="missionTitle">Missiya</h3>
+            <p class="about-card-text" data-i18n="missionText">Raqamli texnologiyalar orqali tashkilotlarning ish jarayonlarini takomillashtirish va samarali yechimlar yaratish.</p>
+          </article>
+          <article class="about-card" data-reveal>
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="#C6A15B" stroke-width="1.5" fill="none"/><path d="M14 8V14L18 16" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="about-card-title" data-i18n="visionTitle">Vizyon</h3>
+            <p class="about-card-text" data-i18n="visionText">Davlat va biznes sektori uchun ishonchli raqamli hamkor sifatida barqaror IT ekotizimlarini rivojlantirish.</p>
+          </article>
+          <article class="about-card" data-reveal>
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><polygon points="14,4 18,10 24,11 20,16 21,22 14,19 7,22 8,16 4,11 10,10" stroke="#C6A15B" stroke-width="1.5" fill="none"/></svg>
+            </div>
+            <h3 class="about-card-title" data-i18n="valuesTitle">Qadriyatlar</h3>
+            <p class="about-card-text" data-i18n="valuesText">Ishonchlilik, aniqlik, sifat, xavfsizlik va uzoq muddatli hamkorlik.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- SERVICES -->
+    <section id="services" class="services-section" aria-labelledby="servicesHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="servicesLabel">IT Xizmatlar</p>
+          <h2 id="servicesHeading" class="section-title" data-i18n="servicesTitle">Professional IT xizmatlar</h2>
+          <p class="section-intro" data-i18n="servicesIntro">IDSC tashkilotlarning raqamli ehtiyojlariga mos, loyihalashdan texnik qo'llab-quvvatlashgacha bo'lgan kompleks IT xizmatlarni taqdim etadi.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="4" width="10" height="10" rx="2" stroke="#C6A15B" stroke-width="1.4"/><rect x="18" y="4" width="10" height="10" rx="2" stroke="#C6A15B" stroke-width="1.4"/><rect x="4" y="18" width="10" height="10" rx="2" stroke="#C6A15B" stroke-width="1.4"/><path d="M23 18V28M18 23H28" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s1Title">B2B IT xizmatlari</h3>
+            <p class="service-card-text" data-i18n="s1Text">Biznes va tashkilotlar uchun ichki jarayonlarni raqamlashtirish, samaradorlikni oshirish va texnologik hamkorlikni rivojlantirishga qaratilgan professional IT yechimlar.</p>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="6" width="24" height="18" rx="2" stroke="#C6A15B" stroke-width="1.4"/><path d="M10 26H22" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M16 24V26" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M8 14L12 10L16 14L20 10L24 14" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s2Title">Axborot tizimlarini ishlab chiqish</h3>
+            <p class="service-card-text" data-i18n="s2Text">Tashkilot faoliyatiga mos boshqaruv, ma'lumot almashinuvi, monitoring va hisobot jarayonlarini qamrab oluvchi ishonchli axborot tizimlari.</p>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="16" rx="2" stroke="#C6A15B" stroke-width="1.4"/><path d="M8 26H24" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M16 22V26" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M8 12H24" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round"/><path d="M8 15H18" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s3Title">Veb-saytlar va portallar ishlab chiqish</h3>
+            <p class="service-card-text" data-i18n="s3Text">Korporativ saytlar, tashkilot portallari va raqamli xizmat platformalarini zamonaviy dizayn, qulay interfeys va barqaror arxitektura asosida yaratamiz.</p>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="10" y="3" width="12" height="22" rx="3" stroke="#C6A15B" stroke-width="1.4"/><circle cx="16" cy="22" r="1.5" fill="#C6A15B" fill-opacity="0.6"/><path d="M10 7H22" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.5"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s4Title">Mobil ilovalar ishlab chiqish</h3>
+            <p class="service-card-text" data-i18n="s4Text">Tashkilotlar va ularning foydalanuvchilari uchun qulay, funksional va xavfsiz mobil ilovalarni ishlab chiqamiz.</p>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 4H20L28 12V28H8V4Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M20 4V12H28" stroke="#C6A15B" stroke-width="1.4"/><path d="M12 16H22" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/><path d="M12 20H22" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/><path d="M12 24H18" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s5Title">Loyiha va texnik hujjatlarni ishlab chiqish</h3>
+            <p class="service-card-text" data-i18n="s5Text">Axborot tizimlari va IT loyihalari uchun texnik topshiriqlar, konsepsiyalar, arxitektura hujjatlari va loyiha hujjatlarini professional shaklda tayyorlaymiz.</p>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M12 16C12 14 13 12 16 12C19 12 20 14 20 16C20 19 18 20 16 20V23" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><circle cx="16" cy="26" r="1" fill="#C6A15B"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s6Title">Texnik qo'llab-quvvatlash</h3>
+            <p class="service-card-text" data-i18n="s6Text">Joriy qilingan tizimlarning uzluksiz ishlashi, yangilanishi, monitoringi va texnik muammolarini tezkor hal qilish uchun qo'llab-quvvatlash xizmatlari.</p>
+          </article>
+          <article class="service-card service-card--wide" data-reveal>
+            <div class="service-card-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4L4 10V22L16 28L28 22V10L16 4Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M16 4V16M4 10L16 16M28 10L16 16" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.5"/></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="s7Title">IT konsalting</h3>
+            <p class="service-card-text" data-i18n="s7Text">Tashkilotlar uchun raqamlashtirish strategiyasi, texnologik tanlovlar, tizim arxitekturasi va IT loyihalarni rivojlantirish bo'yicha ekspert maslahatlar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section" aria-labelledby="projectsHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="projectsLabel">Loyihalar</p>
+          <h2 id="projectsHeading" class="section-title" data-i18n="projectsTitle">Loyihalar va yechimlar</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-card-top">
+              <span class="project-category" data-i18n="projCat1">Axborot tizimi</span>
+              <span class="project-status" data-i18n="projStatus">Amalga oshirildi</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj1Title">[Tashkilot nomi] uchun axborot tizimi</h3>
+            <p class="project-challenge-label" data-i18n="projChallenge">Muammo</p>
+            <p class="project-challenge-text" data-i18n="proj1Challenge">Ma'lumot almashinuvi va hisobot jarayonlarining qo'lda yuritilishi va samaradorlikning pastligi.</p>
+            <p class="project-solution-label" data-i18n="projSolution">Yechim</p>
+            <p class="project-solution-text" data-i18n="proj1Solution">Korporativ axborot tizimini ishlab chiqish va joriy etish.</p>
+            <div class="project-tags">
+              <span class="project-tag">Web Platform</span>
+              <span class="project-tag">Database</span>
+              <span class="project-tag">API</span>
+            </div>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-card-top">
+              <span class="project-category" data-i18n="projCat2">Korporativ portal</span>
+              <span class="project-status" data-i18n="projStatus">Amalga oshirildi</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj2Title">[Tashkilot nomi] uchun korporativ portal</h3>
+            <p class="project-challenge-label" data-i18n="projChallenge">Muammo</p>
+            <p class="project-challenge-text" data-i18n="proj2Challenge">Ichki jarayonlar va xodimlar boshqaruvining markazlashmaganligida.</p>
+            <p class="project-solution-label" data-i18n="projSolution">Yechim</p>
+            <p class="project-solution-text" data-i18n="proj2Solution">Xodimlar portali va korporativ intranet tizimini yaratish.</p>
+            <div class="project-tags">
+              <span class="project-tag">Portal</span>
+              <span class="project-tag">Intranet</span>
+              <span class="project-tag">UI/UX</span>
+            </div>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-card-top">
+              <span class="project-category" data-i18n="projCat3">Mobil yechim</span>
+              <span class="project-status" data-i18n="projStatus">Amalga oshirildi</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj3Title">[Tashkilot nomi] uchun mobil yechim</h3>
+            <p class="project-challenge-label" data-i18n="projChallenge">Muammo</p>
+            <p class="project-challenge-text" data-i18n="proj3Challenge">Mobil qurilmalar orqali xizmatlardan foydalanish imkoniyatining yo'qligi.</p>
+            <p class="project-solution-label" data-i18n="projSolution">Yechim</p>
+            <p class="project-solution-text" data-i18n="proj3Solution">iOS va Android uchun funksional mobil ilova ishlab chiqish.</p>
+            <div class="project-tags">
+              <span class="project-tag">iOS</span>
+              <span class="project-tag">Android</span>
+              <span class="project-tag">Mobile</span>
+            </div>
+          </article>
+          <article class="project-card" data-reveal>
+            <div class="project-card-top">
+              <span class="project-category" data-i18n="projCat4">Texnik hujjatlashtirish</span>
+              <span class="project-status" data-i18n="projStatus">Amalga oshirildi</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj4Title">[Tashkilot nomi] uchun texnik hujjatlashtirish loyihasi</h3>
+            <p class="project-challenge-label" data-i18n="projChallenge">Muammo</p>
+            <p class="project-challenge-text" data-i18n="proj4Challenge">IT tizimlar uchun standartlashtirilgan texnik hujjatlarning mavjud emasligi.</p>
+            <p class="project-solution-label" data-i18n="projSolution">Yechim</p>
+            <p class="project-solution-text" data-i18n="proj4Solution">To'liq texnik hujjatlar to'plamini professional shaklda tayyorlash.</p>
+            <div class="project-tags">
+              <span class="project-tag">Documentation</span>
+              <span class="project-tag">Architecture</span>
+              <span class="project-tag">Technical</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END PROJECTS -->
+
+    <!-- PARTNERS -->
+    <section id="partners" class="partners-section" aria-labelledby="partnersHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="partnersLabel">Hamkorlik</p>
+          <h2 id="partnersHeading" class="section-title" data-i18n="partnersTitle">Hamkorlik</h2>
+          <p class="section-intro" data-i18n="partnersText">IDSC davlat va nodavlat tashkilotlar bilan mas'uliyatli, ochiq va uzoq muddatli texnologik hamkorlikni qadrlaydi.</p>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-tile" data-reveal>
+            <div class="partner-tile-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 4L6 10V20C6 26.6 11.4 32.8 18 34C24.6 32.8 30 26.6 30 20V10L18 4Z" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+            </div>
+            <span class="partner-tile-label" data-i18n="partnerGov">Government Organization</span>
+          </div>
+          <div class="partner-tile" data-reveal>
+            <div class="partner-tile-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="4" y="10" width="28" height="20" rx="2" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M12 10V8C12 6 14 4 18 4C22 4 24 6 24 8V10" stroke="currentColor" stroke-width="1.4"/></svg>
+            </div>
+            <span class="partner-tile-label" data-i18n="partnerPrivate">Private Organization</span>
+          </div>
+          <div class="partner-tile" data-reveal>
+            <div class="partner-tile-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="4" y="4" width="28" height="28" rx="4" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M12 14H24M12 20H24M12 26H18" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.7"/></svg>
+            </div>
+            <span class="partner-tile-label" data-i18n="partnerEnterprise">Enterprise Client</span>
+          </div>
+          <div class="partner-tile" data-reveal>
+            <div class="partner-tile-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="14" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M10 18 L16 12 L22 18 L28 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            </div>
+            <span class="partner-tile-label" data-i18n="partnerTech">Technology Partner</span>
+          </div>
+          <div class="partner-tile" data-reveal>
+            <div class="partner-tile-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 4L32 12V24L18 32L4 24V12L18 4Z" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+            </div>
+            <span class="partner-tile-label" data-i18n="partnerStrategic">Strategic Partner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PARTNERS -->
+
+    <!-- PROCESS -->
+    <section id="process" class="process-section" aria-labelledby="processHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="processLabel">Jarayon</p>
+          <h2 id="processHeading" class="section-title" data-i18n="processTitle">Biz qanday ishlaymiz</h2>
+        </div>
+        <div class="process-timeline">
+          <div class="process-line" aria-hidden="true"></div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">01</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step1Title">Tahlil</h3>
+              <p class="process-step-text" data-i18n="step1Text">Tashkilot ehtiyojlari va mavjud tizimlarni chuqur o'rganish.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">02</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step2Title">Talablarni shakllantirish</h3>
+              <p class="process-step-text" data-i18n="step2Text">Loyiha maqsadlari, funksiyalari va texnik talablarni aniqlash.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">03</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step3Title">Texnik hujjatlashtirish</h3>
+              <p class="process-step-text" data-i18n="step3Text">Arxitektura, texnik topshiriqlar va loyiha hujjatlarini tayyorlash.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">04</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step4Title">Dizayn va ishlab chiqish</h3>
+              <p class="process-step-text" data-i18n="step4Text">UI/UX dizayn va dasturiy ta'minot ishlab chiqish bosqichi.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">05</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step5Title">Test va sifat nazorati</h3>
+              <p class="process-step-text" data-i18n="step5Text">Funksionallik, xavfsizlik va ishlash samaradorligini sinab ko'rish.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">06</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step6Title">Joriy etish</h3>
+              <p class="process-step-text" data-i18n="step6Text">Tizimni ishga tushirish, xodimlarni o'qitish va texnik ko'mak.</p>
+            </div>
+          </div>
+          <div class="process-step" data-reveal>
+            <div class="process-step-num" aria-hidden="true">07</div>
+            <div class="process-step-card">
+              <h3 class="process-step-title" data-i18n="step7Title">Texnik qo'llab-quvvatlash</h3>
+              <p class="process-step-text" data-i18n="step7Text">Uzoq muddatli monitoring, yangilanish va texnik yordam xizmatlari.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PROCESS -->
+
+    <!-- SECURITY -->
+    <section id="security" class="security-section" aria-labelledby="securityHeading">
+      <div class="security-inner">
+        <div class="container">
+          <div class="section-header section-header--light" data-reveal>
+            <p class="section-label section-label--light" data-i18n="securityLabel">Ishonchlilik</p>
+            <h2 id="securityHeading" class="section-title section-title--light" data-i18n="securityTitle">Barqaror, xavfsiz va mas'uliyatli IT yechimlar</h2>
+            <p class="section-intro section-intro--light" data-i18n="securityText">Har bir loyiha ishonchlilik, ma'lumotlar xavfsizligi, texnik barqarorlik va uzoq muddatli qo'llab-quvvatlash tamoyillari asosida ishlab chiqiladi.</p>
+          </div>
+          <div class="security-cards">
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3L4 7.5V14C4 19 8.5 23.5 14 25C19.5 23.5 24 19 24 14V7.5L14 3Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec1Title">Xavfsiz arxitektura</h3>
+              <p class="security-card-text" data-i18n="sec1Text">Zamonaviy xavfsizlik standartlariga mos tizim arxitekturasi.</p>
+            </article>
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="12" width="20" height="13" rx="2" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M8 12V9C8 6.2 10.2 4 13 4H15C17.8 4 20 6.2 20 9V12" stroke="#C6A15B" stroke-width="1.4"/><circle cx="14" cy="18" r="2" fill="#C6A15B" fill-opacity="0.6"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec2Title">Ma'lumotlar himoyasi</h3>
+              <p class="security-card-text" data-i18n="sec2Text">Shaxsiy va korporativ ma'lumotlarning ishonchli himoyasi.</p>
+            </article>
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 14C4 8.5 8.5 4 14 4C19.5 4 24 8.5 24 14C24 19.5 19.5 24 14 24" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M10 14L13 17L18 11" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec3Title">Tizim barqarorligi</h3>
+              <p class="security-card-text" data-i18n="sec3Text">Yuqori ishonchlilik va uzluksiz ishlash kafolati.</p>
+            </article>
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M7 4H18L24 10V24H7V4Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M18 4V10H24" stroke="#C6A15B" stroke-width="1.4"/><path d="M10 14H20M10 18H16" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec4Title">Hujjatlashtirish</h3>
+              <p class="security-card-text" data-i18n="sec4Text">To'liq va aniq texnik hujjatlar to'plami.</p>
+            </article>
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M8 18L11 14L14 17L18 10L21 14" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec5Title">Monitoring</h3>
+              <p class="security-card-text" data-i18n="sec5Text">Real vaqtli tizim monitoringi va ogohlantirishlar.</p>
+            </article>
+            <article class="security-card" data-reveal>
+              <div class="security-card-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 14C4 8.5 8.5 4 14 4C16 4 18 4.6 19.5 5.5" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M24 14C24 19.5 19.5 24 14 24" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/><path d="M14 10V14L17 16" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="security-card-title" data-i18n="sec6Title">Uzoq muddatli qo'llab-quvvatlash</h3>
+              <p class="security-card-text" data-i18n="sec6Text">Tizimlarni rivojlantirish va uzluksiz texnik xizmat ko'rsatish.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECURITY -->
+
+    <!-- TECHNOLOGIES -->
+    <section id="technologies" class="tech-section" aria-labelledby="techHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="techLabel">Texnologiyalar</p>
+          <h2 id="techHeading" class="section-title" data-i18n="techTitle">Texnologik yo'nalishlar</h2>
+        </div>
+        <div class="tech-grid">
+          <div class="tech-badge" data-reveal><span>Web Platforms</span></div>
+          <div class="tech-badge" data-reveal><span>Information Systems</span></div>
+          <div class="tech-badge" data-reveal><span>Mobile Solutions</span></div>
+          <div class="tech-badge" data-reveal><span>Integrations</span></div>
+          <div class="tech-badge" data-reveal><span>Technical Documentation</span></div>
+          <div class="tech-badge" data-reveal><span>Support &amp; Monitoring</span></div>
+          <div class="tech-badge" data-reveal><span>Analytics</span></div>
+          <div class="tech-badge" data-reveal><span>Secure Architecture</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- END TECHNOLOGIES -->
+
+    <!-- MEDIA -->
+    <section id="media" class="media-section" aria-labelledby="mediaHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="mediaLabel">Media</p>
+          <h2 id="mediaHeading" class="section-title" data-i18n="mediaTitle">Media va yangiliklar</h2>
+          <p class="section-intro" data-i18n="mediaIntro">IDSC faoliyati, texnologik yondashuvlar va raqamli yechimlar bo'yicha yangiliklar hamda materiallar.</p>
+        </div>
+        <div class="media-filters" role="group" aria-label="Filter articles">
+          <button class="media-filter-btn active" data-filter="all" data-i18n="filterAll">Barchasi</button>
+          <button class="media-filter-btn" data-filter="news" data-i18n="filterNews">Yangiliklar</button>
+          <button class="media-filter-btn" data-filter="articles" data-i18n="filterArticles">Maqolalar</button>
+          <button class="media-filter-btn" data-filter="projects" data-i18n="filterProjects">Loyihalar</button>
+          <button class="media-filter-btn" data-filter="events" data-i18n="filterEvents">Tadbirlar</button>
+        </div>
+        <div class="media-grid" id="mediaGrid">
+          <article class="media-card" data-category="news" data-reveal>
+            <div class="media-card-img" aria-hidden="true">
+              <div class="media-img-placeholder">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="24" rx="3" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M4 16H36" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.4"/><circle cx="12" cy="24" r="3" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.5" fill="none"/><path d="M18 22H32M18 26H28" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+            <div class="media-card-body">
+              <span class="media-card-tag" data-i18n="filterNews">Yangiliklar</span>
+              <time class="media-card-date">2026</time>
+              <h3 class="media-card-title" data-i18n="media1Title">IDSC yangi raqamli platforma ustida ish boshladi</h3>
+              <p class="media-card-text" data-i18n="media1Text">Zamonaviy texnologiyalar asosida yangi raqamli xizmat platformasini ishlab chiqish jarayoni boshlandi.</p>
+              <a href="#" class="media-card-link" data-i18n="readMore" aria-label="Read more about IDSC's new digital platform">Batafsil →</a>
+            </div>
+          </article>
+          <article class="media-card" data-category="articles" data-reveal>
+            <div class="media-card-img" aria-hidden="true">
+              <div class="media-img-placeholder">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M8 8H28L32 12V32H8V8Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M28 8V12H32" stroke="#C6A15B" stroke-width="1.4"/><path d="M13 18H27M13 22H27M13 26H21" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.5" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+            <div class="media-card-body">
+              <span class="media-card-tag" data-i18n="filterArticles">Maqolalar</span>
+              <time class="media-card-date">2026</time>
+              <h3 class="media-card-title" data-i18n="media2Title">Axborot tizimlarini ishlab chiqishda zamonaviy yondashuvlar</h3>
+              <p class="media-card-text" data-i18n="media2Text">Zamonaviy IT tizimlarni loyihalashda qo'llaniladigan eng yangi metodologiyalar va yondashuvlar haqida.</p>
+              <a href="#" class="media-card-link" data-i18n="readMore" aria-label="Read article about modern approaches">Batafsil →</a>
+            </div>
+          </article>
+          <article class="media-card" data-category="articles" data-reveal>
+            <div class="media-card-img" aria-hidden="true">
+              <div class="media-img-placeholder">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="28" rx="4" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M12 22L16 16L20 20L25 14L30 18" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              </div>
+            </div>
+            <div class="media-card-body">
+              <span class="media-card-tag" data-i18n="filterArticles">Maqolalar</span>
+              <time class="media-card-date">2026</time>
+              <h3 class="media-card-title" data-i18n="media3Title">Texnik hujjatlashtirishning IT loyihadagi ahamiyati</h3>
+              <p class="media-card-text" data-i18n="media3Text">Sifatli texnik hujjatlashtirish IT loyihalarning muvaffaqiyatli amalga oshirilishida qanday rol o'ynaydi.</p>
+              <a href="#" class="media-card-link" data-i18n="readMore" aria-label="Read article about technical documentation">Batafsil →</a>
+            </div>
+          </article>
+          <article class="media-card" data-category="projects" data-reveal>
+            <div class="media-card-img" aria-hidden="true">
+              <div class="media-img-placeholder">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 6L34 14V26L20 34L6 26V14L20 6Z" stroke="#C6A15B" stroke-width="1.4" fill="none"/><path d="M20 6V20M6 14L20 20M34 14L20 20" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.5"/></svg>
+              </div>
+            </div>
+            <div class="media-card-body">
+              <span class="media-card-tag" data-i18n="filterProjects">Loyihalar</span>
+              <time class="media-card-date">2026</time>
+              <h3 class="media-card-title" data-i18n="media4Title">Tashkilotlar uchun B2B IT xizmatlarining afzalliklari</h3>
+              <p class="media-card-text" data-i18n="media4Text">B2B yo'nalishidagi IT xizmatlar tashkilotlar samaradorligini qanday oshiradi va raqamli o'zgarishni qanday tezlashtiradi.</p>
+              <a href="#" class="media-card-link" data-i18n="readMore" aria-label="Read about B2B IT services">Batafsil →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END MEDIA -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section" aria-labelledby="contactHeading">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <p class="section-label" data-i18n="contactLabel">Aloqa</p>
+          <h2 id="contactHeading" class="section-title" data-i18n="contactTitle">Loyihangizni muhokama qilaylik</h2>
+          <p class="section-intro" data-i18n="contactIntro">Tashkilotingiz uchun mos IT yechimni tanlash va loyiha imkoniyatlarini muhokama qilish uchun biz bilan bog'laning.</p>
+        </div>
+        <div class="contact-inner">
+          <div class="contact-info" data-reveal>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 4.5C4 3.7 4.7 3 5.5 3H8.3L9.8 7L8 8.5C9 10.5 11.5 13 13.5 14L15 12.2L19 13.7V16.5C19 17.3 18.3 18 17.5 18C9.5 18 4 12.5 4 4.5Z" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-label" data-i18n="contactPhone">Telefon</p>
+                <p class="contact-info-value">[Telefon raqami]</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="5" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M2 8L11 13L20 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-label" data-i18n="contactEmail">Email</p>
+                <p class="contact-info-value">[Email manzil]</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2C7.7 2 5 4.7 5 8C5 12.5 11 20 11 20C11 20 17 12.5 17 8C17 4.7 14.3 2 11 2Z" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="11" cy="8" r="2" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-label" data-i18n="contactAddress">Manzil</p>
+                <p class="contact-info-value">[Manzil]</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M11 6V11L14 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-label" data-i18n="contactHours">Ish vaqti</p>
+                <p class="contact-info-value" data-i18n="contactHoursVal">Dushanba – Juma: 9:00 – 18:00</p>
+              </div>
+            </div>
+            <div class="contact-trust">
+              <p data-i18n="contactTrust">IDSC sizning tashkilotingiz uchun ishonchli, barqaror va professional IT hamkor.</p>
+            </div>
+          </div>
+          <div class="contact-form-wrap" data-reveal>
+            <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formName" data-i18n="formName">Ism va familiya</label>
+                  <input type="text" id="formName" name="name" autocomplete="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="formOrg" data-i18n="formOrg">Tashkilot</label>
+                  <input type="text" id="formOrg" name="organization" autocomplete="organization" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formPhone" data-i18n="formPhone">Telefon</label>
+                  <input type="tel" id="formPhone" name="phone" autocomplete="tel" />
+                </div>
+                <div class="form-group">
+                  <label for="formEmail" data-i18n="formEmail">Email</label>
+                  <input type="email" id="formEmail" name="email" autocomplete="email" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="formService" data-i18n="formService">Kerakli xizmat</label>
+                <select id="formService" name="service">
+                  <option value="" data-i18n="formServicePlaceholder">Xizmatni tanlang</option>
+                  <option value="b2b" data-i18n="s1Title">B2B IT xizmatlari</option>
+                  <option value="infosys" data-i18n="s2Title">Axborot tizimlarini ishlab chiqish</option>
+                  <option value="web" data-i18n="s3Title">Veb-saytlar va portallar ishlab chiqish</option>
+                  <option value="mobile" data-i18n="s4Title">Mobil ilovalar ishlab chiqish</option>
+                  <option value="docs" data-i18n="s5Title">Loyiha va texnik hujjatlarni ishlab chiqish</option>
+                  <option value="support" data-i18n="s6Title">Texnik qo'llab-quvvatlash</option>
+                  <option value="consulting" data-i18n="s7Title">IT konsalting</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="formMessage" data-i18n="formMessage">Xabar</label>
+                <textarea id="formMessage" name="message" rows="5" data-i18n-placeholder="formMessagePlaceholder" placeholder="Loyihangiz haqida qisqacha ma'lumot bering..."></textarea>
+              </div>
+              <button type="submit" class="btn-submit" data-i18n="formSubmit">Yuborish</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="mainFooter" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo-link" aria-label="IDSC — Home">
+            <img src="assets/images/idsc-logo.jpg" alt="IDSC Logo" width="80" height="80" class="footer-logo" />
+          </a>
+          <p class="footer-brand-text" data-i18n="footerBrandText">Information and Decision Support Center — davlat va nodavlat tashkilotlar uchun professional IT yechimlar va raqamli xizmatlar.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footerServices">Xizmatlar</h4>
+          <ul>
+            <li><a href="#services" data-i18n="s1Title">B2B IT xizmatlari</a></li>
+            <li><a href="#services" data-i18n="s2Title">Axborot tizimlari</a></li>
+            <li><a href="#services" data-i18n="s3Title">Veb-saytlar va portallar</a></li>
+            <li><a href="#services" data-i18n="s4Title">Mobil ilovalar</a></li>
+            <li><a href="#services" data-i18n="s6Title">Texnik qo'llab-quvvatlash</a></li>
+            <li><a href="#services" data-i18n="s7Title">IT konsalting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footerNav">Navigatsiya</h4>
+          <ul>
+            <li><a href="#hero" data-i18n="navHome">Bosh sahifa</a></li>
+            <li><a href="#about" data-i18n="navAbout">Biz haqimizda</a></li>
+            <li><a href="#projects" data-i18n="navProjects">Loyihalar</a></li>
+            <li><a href="#media" data-i18n="navMedia">Media</a></li>
+            <li><a href="#contact" data-i18n="navContact">Bog'lanish</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footerContact">Aloqa</h4>
+          <ul>
+            <li><span data-i18n="contactPhone">Telefon:</span> <span>[Telefon raqami]</span></li>
+            <li><span data-i18n="contactEmail">Email:</span> <span>[Email manzil]</span></li>
+            <li><span data-i18n="contactAddress">Manzil:</span> <span>[Manzil]</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider" aria-hidden="true"></div>
+      <div class="footer-bottom">
+        <p class="footer-copy" data-i18n="footerCopy">© 2026 IDSC — Information and Decision Support Center. All rights reserved.</p>
+        <div class="footer-lang">
+          <button class="lang-btn active" data-lang="uz">UZ</button>
+          <button class="lang-btn" data-lang="ru">RU</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+  <script src="script.js"></script>
+</body>
+</html>
